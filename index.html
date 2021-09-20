@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800;900&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./css/style.css">
+    <title>Google Ranker</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+           <div class="container">
+            <a class="navbar-brand" href="/"><img class="img-fluid" src="./images/ranking logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Language</a>
+                </li>
+              </ul>
+            </div>
+           </div>
+           
+          <div id="header-btns">
+            <a href="./login.html" class="btn-login">Login</a>
+            <a href="register.html" class="btn-sign-up">Sign up</a>
+        </div>
+        </nav>
+    </header>
+    <div class="hero-wrapper">
+        <div>
+            <div>
+                <h1>
+                   <span>Google</span>
+                   <span>Ranking check</span>
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat imperdiet parturient sit scelerisque. Aliquam et ac lacus ac ipsum velit. Neque id sit ornare auctor donec mauris sed interdum. Ut diam, pellentesque ut mattis mattis.
+                </p>
+            </div>
+
+            <div>
+                <form class="search_form">
+                    <div>
+                        <input class="search_website" type="text" name="" id="" placeholder="Your website.....">
+                        <input class="search_keyword" type="text" name="" id="" placeholder="Keyword...">
+                    </div>
+                    <a href="/result.html" class="search_btn" type="submet" name="" id="" value="Analyse your webite">Analyse your webite</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Help section -->
+    <section class="help-wrapper">
+        <div>
+            <h2>
+                Need Help With Your
+                Google Rankings ? 
+            </h2>
+            <button class="google-btn">Yes, I Need Consultation</button>
+        </div>
+        <img class="arrow-image" src="./images/Arrow.png" alt="">
+    </section>
+    <!-- how it works section -->
+    <section class="how-it-works-wrapper">
+        <div class="how-it-works-inner">
+            <div> <img src="./images/steps image.png" alt="how it works"/> </div>
+            <!-- Steps -->
+            <div>
+                <!-- step 1 -->
+                <div class="step-card">
+                    <span class="steps-num">1</span>
+                     <div>
+                        <h4>STEP 1</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus aenean velit, duis phasellus in. Condimentum ultricies convallis amet, cursus facilisis mi eu tellus laoreet. 
+                        </p>
+                     </div>
+                </div>
+
+                <!-- step 2 -->
+                <div class="step-card">
+                    <span class="steps-num">1</span>
+                    <div class="dard-bg-card-inner">
+                        <h4>STEP 2</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus aenean velit, duis phasellus in. Condimentum ultricies convallis amet, cursus facilisis mi eu tellus laoreet. 
+                        </p>
+                    </div>
+                </div>
+
+                <!-- step 3 -->
+                <div class="step-card">
+                    <span class="steps-num">1</span>
+                    <div class="dard-bg-card-inner">
+                        <h4>STEP 3</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus aenean velit, duis phasellus in. Condimentum ultricies convallis amet, cursus facilisis mi eu tellus laoreet. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq container">
+        <h2>FQA</h2>
+        <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span>
+                        Question 1    
+                      </span>
+                      <span>
+                          <img src="./images/arrow down.png" alt="">
+                      </span>
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <span>
+                        Question 2    
+                      </span>
+                      <span>
+                          <img src="./images/arrow down.png" alt="">
+                    </span>                </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <span>
+                        Question 3    
+                      </span>
+                      <span>
+                          <img src="./images/arrow down.png" alt="">
+                      </span>                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <footer>
+        <div>
+            <img class="mb-3" src="./images/light logo.png" alt="Google ranker logo">
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            <img class="mt-3" src="./images/Divider.png" alt="">
+        </div>
+        <!-- footer bottom copyright -->
+        <div class="footer-bottom">
+          <div>
+              
+                © 2021 Seo Solutions. All rights reserved
+
+          </div>
+
+          <!-- social -->
+          <div>
+              <ul>
+                  <li>
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

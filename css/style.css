@@ -363,7 +363,7 @@ margin: 8px 0px;
 #headingOne{
     font-family: inter;
     background-color: #748185 !important;
-    font-size: 34px;
+    font-size: 30px;
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -376,13 +376,13 @@ margin: 8px 0px;
     margin-bottom: 20px;
 }
 
-#headingThree{
+/* #headingThree{
     font-family: inter;
     background-color: #748185 !important;
     font-size: 34px;
     border-radius: 20px;
     margin-bottom: 20px;
-}
+} */
 
 .btn-link:hover{
     text-decoration: none;
@@ -656,6 +656,10 @@ footer ul > li > a {
 @media only screen and (max-width: 700px) {
 
     /* hero sectoin */
+
+    .hero-wrapper > div {  
+         padding: 8px;
+    }
     .hero-wrapper {
         background-repeat: no-repeat;
         background-size: 100%;
@@ -666,7 +670,10 @@ footer ul > li > a {
         grid-template-columns: 1fr;
         grid-row-gap: 15px;
     }
-
+     
+    .search_btn{
+        width: 85%;
+    }
 
     /* help */
         .help-wrapper{
@@ -681,13 +688,17 @@ footer ul > li > a {
           text-align: center;
           background-image: none;
           text-align: center;
-          padding-left: 0;
+          padding: 25px;
         }
         
+        .arrow-image{
+            display: none;
+        }
         .help-wrapper h2{
           margin-top: 30px;
           text-align: center;
           margin-left: auto;
+          font-size: 25px;
         }
         
         .google-btn{
@@ -710,6 +721,24 @@ footer ul > li > a {
             justify-content: center;
         }
 
+        .how-it-works-inner > div:nth-child(2) > div:nth-child(1) {
+            padding: 15px;
+        }
+        .step-card {
+            grid-template-columns: 20% 80%;
+        }
+
+        .steps-num{
+            display: block;
+            border-radius: 50%;
+            font-size: 25px;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            background-color: white;
+            text-align: center;
+            font-size: 25px;
+        }
         /* footer */
         .footer-bottom{
             flex-direction: column-reverse;            
